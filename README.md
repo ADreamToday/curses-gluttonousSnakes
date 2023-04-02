@@ -1,0 +1,3 @@
+# curses-gluttonousSnakes
+Linux下使用ncurses
+Windows下使用pdcurses
