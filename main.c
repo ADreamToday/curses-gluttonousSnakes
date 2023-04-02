@@ -9,7 +9,8 @@ int main()
     initscr();
     noecho();
     curs_set(0);    // 光标不可见
-    halfdelay(5);
+    // halfdelay(5);
+    timeout(400);
     cbreak();
     WINDOW *gameWin;
     WINDOW *scoreWin;
